@@ -1,7 +1,7 @@
 from distutils.log import debug
 from flask import Flask, request, jsonify, make_response
 from flask_migrate import Migrate
-from models  import Customer, db
+from models  import Customer, db 
 
 app = Flask(__name__)
 

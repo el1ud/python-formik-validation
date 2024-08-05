@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy_serializer import SerializerMixin
 
-db = SQLAlchemy()
+db = SQLAlchemy() 
 
 class Customer(db.Model, SerializerMixin):
     __tablename__ = 'customers'
